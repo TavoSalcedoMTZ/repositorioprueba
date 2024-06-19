@@ -1,3 +1,3 @@
-C:/Users/Alumnos/CLionProjects/Poliformismo orientado a objetos/cmake-build-debug/CMakeFiles/Poliformismo_orientado_a_objetos.dir
-C:/Users/Alumnos/CLionProjects/Poliformismo orientado a objetos/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Alumnos/CLionProjects/Poliformismo orientado a objetos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sdedf/OneDrive/Documentos/GitHub/repositorioprueba/cmake-build-debug/CMakeFiles/Poliformismo_orientado_a_objetos.dir
+C:/Users/sdedf/OneDrive/Documentos/GitHub/repositorioprueba/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sdedf/OneDrive/Documentos/GitHub/repositorioprueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir

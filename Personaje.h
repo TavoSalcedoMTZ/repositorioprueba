@@ -2,7 +2,13 @@
 #define POLIFORMISMO_ORIENTADO_A_OBJETOS_PERSONAJE_H
 #include<iostream>
 #include"Entidad.h"
-class Personaje:public Entidad {
+#include <vector>
+#include "Habilidades.h"
+#include "BolaDeFuego.h"
+#include "Curar.h"
+#include"NewInventario.h"
+#include "inventario.h"
+class Personaje:public Entidad, public NewInventario, public inventario{
 public:
     Personaje();
     Personaje(float Vida, float Escudo, float Velocidad, float Dano);
@@ -31,11 +37,17 @@ public:
     float GetDano(){
         return Dano;
     }
+
+    void AddHab(Habilidades* habilidad);
+    void ShowHab() const;
+
 private:
     float Vida;
     float Escudo;
     float Velocidad;
     float Dano;
+    std::vector<Habilidades*> ObjHabilidades;
+
 };
 
 

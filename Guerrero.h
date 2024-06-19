@@ -8,7 +8,7 @@
 #include "Personaje.h"
 #include "inventario.h"
 
-class Guerrero: public Personaje,public inventario{
+class Guerrero: public Personaje{
 public:
     Guerrero();
     Guerrero(float Vida, float Escudo, float Velocidad, float Dano,std::string Arma, std::string Clase);

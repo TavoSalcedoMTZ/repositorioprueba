@@ -26,7 +26,15 @@ void Personaje::Atacar() {
 }
 void Personaje::SetVida(float Vida){}
 
+void Personaje::AddHab(Habilidades *habilidad) {
+    ObjHabilidades.push_back(habilidad);
+}
 
+void Personaje::ShowHab() const {
+    for( Habilidades* habilidad:ObjHabilidades){
+        habilidad->usar();
+    }
+}
 
 
 
